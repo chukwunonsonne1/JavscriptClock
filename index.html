@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+	<title>Vanilla Javascript StopWatch</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="vanillaClock.css" type="text/css">
+	
 </head>
-
 <body>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>STOP WATCH</h1>
+			<h1>VANILLA JAVASCRIPT STOP WATCH</h1>
+			<h1><span id="minutes">00</span>:<span id="seconds">00</span></h1>
+			<div>
+				<button type="button" class="btn btn-danger" id="start">Start</button>
+				<button type="button" class="btn btn-warning" id="stop">Stop</button>
+				<button type="button" class="btn btn-info" id="reset">Reset</button>
+				
+			</div>
+		</div>
+	</div>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+	<script type="text/javascript" src="vanillaClock.js"></script>
 
 </body>
 </html>
